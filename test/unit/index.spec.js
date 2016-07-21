@@ -1,8 +1,7 @@
 
 
 import {PersonIndex} from './../../src/PersonIndex';
-import * as chai from 'chai';
-const expect = chai.expect;
+
 
 describe( 'Person', ()=> {
 

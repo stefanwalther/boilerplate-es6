@@ -14,9 +14,34 @@ $ npm install --save boilerplate-es6
 
 boilerplate-es6 is a template for your es6 based projects using
 
-* gulp
-* mocha & chai
 * babel
+* gulp
+* mocha
+* istanbul & nyc
+
+### build
+
+```sh
+npm run build
+```
+
+### test
+
+```sh
+npm run test:unit
+```
+
+### coverage
+
+```sh
+npm run coverage
+```
+
+### lint
+
+```sh
+npm run lint
+```
 
 ## About
 
