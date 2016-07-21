@@ -1,4 +1,4 @@
-# es6-boilerplate [![NPM version](https://img.shields.io/npm/v/es6-boilerplate.svg?style=flat)](https://www.npmjs.com/package/es6-boilerplate) [![NPM downloads](https://img.shields.io/npm/dm/es6-boilerplate.svg?style=flat)](https://npmjs.org/package/es6-boilerplate) [![Build Status](https://img.shields.io/travis/stefanwalther/es6-boilerplate.svg?style=flat)](https://travis-ci.org/stefanwalther/es6-boilerplate)
+# boilerplate-es6 [![NPM version](https://img.shields.io/npm/v/boilerplate-es6.svg?style=flat)](https://www.npmjs.com/package/boilerplate-es6) [![NPM downloads](https://img.shields.io/npm/dm/boilerplate-es6.svg?style=flat)](https://npmjs.org/package/boilerplate-es6) [![Build Status](https://img.shields.io/travis/stefanwalther/boilerplate-es6.svg?style=flat)](https://travis-ci.org/stefanwalther/boilerplate-es6)
 
 Boilerplate for ES6 projects.
 
@@ -7,12 +7,12 @@ Boilerplate for ES6 projects.
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save es6-boilerplate
+$ npm install --save boilerplate-es6
 ```
 
 ## What is es6-boilerplate
 
-es6-boilerplate is a template for your es6 based projects using
+boilerplate-es6 is a template for your es6 based projects using
 
 * gulp
 * mocha & chai
@@ -52,7 +52,7 @@ $ npm install -d && npm test
 ### License
 
 Copyright © 2016, [Stefan Walther](https://github.com/stefanwalther).
-Released under the [MIT license](https://github.com/stefanwalther/es6-boilerplate/blob/master/LICENSE).
+Released under the [MIT license](https://github.com/stefanwalther/boilerplate-es6/blob/master/LICENSE).
 
 ***
 
