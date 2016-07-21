@@ -2,7 +2,12 @@
   "name": "boilerplate-es6",
   "version": "0.2.0",
   "description": "Boilerplate for ES6 projects.",
-  "keywords": [],
+  "keywords": [
+      "es6",
+      "gulp",
+      "ecma2015",
+      "boilerplate"
+  ],
   "homepage": "https://github.com/stefanwalther/boilerplate-es6",
   "bugs": {
     "url": "https://github.com/stefanwalther/boilerplate-es6/issues"
