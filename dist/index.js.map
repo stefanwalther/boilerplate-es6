@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;AAAA,OAAO,MAAP,GAAgB,QAAQ,eAAR,CAAhB","file":"index.js","sourcesContent":["module.export = require('./PersonIndex');\n"],"sourceRoot":"/Users/swr/git/stefanwalther/es6-boilerplate/src"}

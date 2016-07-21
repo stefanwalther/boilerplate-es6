@@ -1,0 +1,39 @@
+{
+    "ecmaFeatures": {
+        "modules": true,
+        "experimentalObjectRestSpread": true,
+        "sourceType": "module"
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": false,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "globals": {
+        "document": false,
+        "navigator": false,
+        "window": false
+    },
+    "rules": {
+        "indent": [
+            2
+        ],
+        "quotes": [
+            2,
+            "single"
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ]
+    },
+    "extends": "eslint:recommended"
+}
