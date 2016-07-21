@@ -26,9 +26,7 @@
     "lint": "eslint src",
     "docs": "verb"
   },
-  "dependencies": {
-    "chai": "^3.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
