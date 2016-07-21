@@ -10,11 +10,13 @@ Install with [npm](https://www.npmjs.com/):
 $ npm install --save es6-boilerplate
 ```
 
-## Usage
+## What is es6-boilerplate
 
-```js
-var es6-boilerplate = require('es6-boilerplate');
-```
+es6-boilerplate is a template for your es6 based projects using
+
+* gulp
+* mocha & chai
+* babel
 
 ## About
 
