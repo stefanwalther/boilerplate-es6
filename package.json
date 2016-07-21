@@ -61,8 +61,5 @@
       "verb",
       "verb-readme-generator"
     ]
-  },
-  "config": {
-    "ghooks": {}
   }
 }
