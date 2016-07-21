@@ -1,1 +1,1 @@
-module.export = require('./PersonIndex');
+module.export = require( './PersonIndex' );

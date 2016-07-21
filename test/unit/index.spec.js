@@ -10,7 +10,7 @@ describe( 'Person', ()=> {
        idx = new PersonIndex();
     });
 
-    it('should have a property person', ()=> {
+    it.only('should have a property person', ()=> {
         expect( idx.person ).to.exist;
         expect( idx.person).to.be.an('object');
     });
