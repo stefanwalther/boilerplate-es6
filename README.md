@@ -31,43 +31,43 @@ $ git clone git@github.com:stefanwalther/boilerplate-es6.git
 > Build the code from `./src`, store in `./dist`
 
 ```sh
-npm run build
+$ npm run build
 ```
 
 ### Test
 
 ```sh
 ## Unit tests
-npm run test:unit
+$ npm run test:unit
 
 ## E2E tests
-npm run test:e2e
+$ npm run test:e2e
 
 ## All tests
-npm run test
+$ npm run test
 ```
 
 ### Test coverage
 
 ```sh
-npm run coverage
+$ npm run coverage
 ```
 
 ### Linting
 
 ```sh
 ## Lint `./src`
-npm run lint
+$ npm run lint
 
 ## Lint './test`
-npm run lint:test
+$ npm run lint:test
 ```
 
 ### Documentation
 
 ```sh
 ## Generated documentation using verb
-npm run docs
+$ npm run docs
 ```
 
 ## Author
