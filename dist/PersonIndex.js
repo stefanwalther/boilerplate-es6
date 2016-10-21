@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.PersonIndex = undefined;
 
@@ -12,22 +12,22 @@ var _Person = require('./model/Person');
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var PersonIndex = exports.PersonIndex = function () {
-    function PersonIndex() {
-        _classCallCheck(this, PersonIndex);
+  function PersonIndex() {
+    _classCallCheck(this, PersonIndex);
 
-        this.props = {};
-        var person = new _Person.Person('Stefan', 'Walther');
-        this.props.person = person;
-        this.props.fullName = person.fullName;
+    this.props = {};
+    var person = new _Person.Person('Stefan', 'Walther');
+    this.props.person = person;
+    this.props.fullName = person.fullName;
+  }
+
+  _createClass(PersonIndex, [{
+    key: 'person',
+    get: function get() {
+      return this.props.person;
     }
+  }]);
 
-    _createClass(PersonIndex, [{
-        key: 'person',
-        get: function get() {
-            return this.props.person;
-        }
-    }]);
-
-    return PersonIndex;
+  return PersonIndex;
 }();
 //# sourceMappingURL=PersonIndex.js.map
