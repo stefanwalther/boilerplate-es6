@@ -1,18 +1,19 @@
+/*global describe, expect, it, beforeEach*/
 import { PersonIndex } from './../../src/PersonIndex';
 
-describe( 'Person', ()=> {
+describe( 'Person', () => {
 
   let idx;
-  beforeEach( ()=> {
+  beforeEach( () => {
     idx = new PersonIndex();
   } );
 
-  it.only( 'should have a property person', ()=> {
+  it( 'should have a property person', () => {
     expect( idx.person ).to.exist;
     expect( idx.person ).to.be.an( 'object' );
   } );
 
-  it( 'should have a property fullName', ()=> {
+  it( 'should have a property fullName', () => {
     expect( idx.person ).to.have.a.property( 'fullName', 'Stefan Walther' );
   } );
 
