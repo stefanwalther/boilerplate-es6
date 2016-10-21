@@ -1,1 +1,1 @@
-{"version":3,"sources":["index.js"],"names":[],"mappings":";;AAAA,OAAO,MAAP,GAAgB,QAAQ,eAAR,CAAhB","file":"index.js","sourcesContent":["module.export = require('./PersonIndex');\n"],"sourceRoot":"/Users/swr/git/stefanwalther/boilerplate-es6/src"}
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;AAAA,OAAO,MAAP,GAAgB,QAAS,eAAT,CAAhB","file":"index.js","sourcesContent":["module.export = require( './PersonIndex' );\n"],"sourceRoot":"/Users/swr/git/stefanwalther/boilerplate-es6/src"}

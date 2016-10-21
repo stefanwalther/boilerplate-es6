@@ -1,3 +1,3 @@
-require('babel-core/register');
+require( 'babel-core/register' );
 
-global.expect = require('chai').expect;
+global.expect = require( 'chai' ).expect;

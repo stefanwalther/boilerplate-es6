@@ -1,14 +1,14 @@
 import {Person} from './model/Person';
 
 export class PersonIndex {
-    constructor () {
+    constructor() {
         this.props = {};
         var person = new Person( 'Stefan', 'Walther' );
         this.props.person = person;
         this.props.fullName = person.fullName;
     }
 
-    get person () {
+    get person() {
         return this.props.person;
     }
 }

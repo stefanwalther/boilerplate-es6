@@ -1,22 +1,19 @@
-
-
 import {PersonIndex} from './../../src/PersonIndex';
-
 
 describe( 'Person', ()=> {
 
     let idx;
     beforeEach( ()=> {
-       idx = new PersonIndex();
-    });
+        idx = new PersonIndex();
+    } );
 
-    it.only('should have a property person', ()=> {
+    it.only( 'should have a property person', ()=> {
         expect( idx.person ).to.exist;
-        expect( idx.person).to.be.an('object');
-    });
+        expect( idx.person ).to.be.an( 'object' );
+    } );
 
-    it('should have a property fullName', ()=> {
-        expect( idx.person).to.have.a.property('fullName', 'Stefan Walther');
-    });
+    it( 'should have a property fullName', ()=> {
+        expect( idx.person ).to.have.a.property( 'fullName', 'Stefan Walther' );
+    } );
 
 } );
