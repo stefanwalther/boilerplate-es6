@@ -21,7 +21,7 @@
   "files": [
     "/dist"
   ],
-  "main": "index.js",
+  "main": "/dist/index.js",
   "repository": "stefanwalther/boilerplate-es6",
   "scripts": {
     "build": "gulp build",
