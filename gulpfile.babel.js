@@ -2,6 +2,7 @@ import gulp from 'gulp';
 import sourceMaps from 'gulp-sourcemaps';
 import babel from 'gulp-babel';
 import path from 'path';
+import del from 'del';
 
 const paths = {
   es6: [ './src/**/*.js' ],
@@ -9,7 +10,14 @@ const paths = {
   // Must be absolute or relative to source map
   sourceRoot: path.join( __dirname, 'src' )
 };
-gulp.task( 'build', () => {
+
+gulp.task( 'clean:dist', () => {
+  return del( [
+    './dist/**/*'
+  ] );
+} );
+
+gulp.task( 'build', [ 'clean:dist' ], () => {
   return gulp.src( paths.es6 )
     .pipe( sourceMaps.init() )
     .pipe( babel( {
