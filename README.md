@@ -34,7 +34,7 @@ $ git clone git@github.com:stefanwalther/boilerplate-es6.git
 npm run build
 ```
 
-### test
+### Test
 
 ```sh
 ## Unit tests
@@ -47,16 +47,27 @@ npm run test:e2e
 npm run test
 ```
 
-### coverage
+### Test coverage
 
 ```sh
 npm run coverage
 ```
 
-### lint
+### Linting
 
 ```sh
+## Lint `./src`
 npm run lint
+
+## Lint './test`
+npm run lint:test
+```
+
+### Documentation
+
+```sh
+## Generated documentation using verb
+npm run docs
 ```
 
 ## Author
