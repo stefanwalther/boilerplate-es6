@@ -1,7 +1,7 @@
 /*global describe, expect, it, beforeEach*/
 import { PersonIndex } from './../../src/PersonIndex';
 
-describe( 'Person', () => {
+describe( 'unit:Person', () => {
 
   let idx;
   beforeEach( () => {

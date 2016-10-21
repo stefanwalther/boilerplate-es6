@@ -1,7 +1,7 @@
 /*global describe, expect, it, beforeEach*/
-describe( 'e2e', () => {
+describe( 'integration:basic', () => {
 
-  it( 'works', () => {
+  it( 'should work', () => {
     expect( true ).to.be.true;
   } );
 
