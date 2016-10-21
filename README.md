@@ -1,6 +1,6 @@
-## What is es6-boilerplate
+# boilerplate-es6
 
-boilerplate-es6 is a template for your es6 based projects using
+> boilerplate-es6 is a template for your es6 based projects using
 
 ## Install
 
