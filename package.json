@@ -57,7 +57,7 @@
   "verb": {
     "run": true,
     "toc": false,
-    "layout": "default",
+    "layout": "empty",
     "tasks": [
       "readme"
     ],
