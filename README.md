@@ -4,8 +4,12 @@ boilerplate-es6 is a template for your es6 based projects using
 
 ## Install
 
-```
+```sh
+## Clone the repo
 $ git clone git@github.com:stefanwalther/boilerplate-es6.git
+
+## Install all dependencies
+$ npm install
 ```
 
 ## Basic concept
