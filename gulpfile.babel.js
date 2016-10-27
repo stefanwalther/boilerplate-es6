@@ -6,7 +6,7 @@ import del from 'del';
 
 const paths = {
   es6Path: './src/**/*.*',
-  es6: [ './src/**/*.js', './src/**/*.json' ],
+  es6: [ './src/**/*.js', '!./src/**/*.json' ],
   es5: './dist',
   // Must be absolute or relative to source map
   sourceRoot: path.join( __dirname, 'src' )
