@@ -48,7 +48,9 @@
     "gulp-format-md": "*",
     "gulp-sourcemaps": "^1.6.0",
     "mocha": "*",
-    "nyc": "^7.0.0"
+    "nyc": "^7.0.0",
+    "verb": "^0.8.10",
+    "verb-cli": "^0.7.4"
   },
   "engines": {
     "node": ">=0.10.0"
