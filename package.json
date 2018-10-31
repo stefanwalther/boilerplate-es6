@@ -6,6 +6,7 @@
     "es6",
     "gulp",
     "ecma2015",
+    "ecma2017",
     "boilerplate"
   ],
   "homepage": "https://github.com/stefanwalther/boilerplate-es6",
