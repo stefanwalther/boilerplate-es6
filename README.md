@@ -1,5 +1,8 @@
 # boilerplate-es6
 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/09b2c2f27c3342abb766651bc4a4a885)](https://www.codacy.com/app/stefan-walther/boilerplate-es6?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=stefanwalther/boilerplate-es6&amp;utm_campaign=badger)
+
 > boilerplate-es6 is a template for your es6 based projects using
 
 ## Install
