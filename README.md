@@ -1,5 +1,7 @@
 # boilerplate-es6
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/boilerplate-es6.svg)](https://greenkeeper.io/)
+
 > boilerplate-es6 is a template for your es6 based projects using
 
 ## Install

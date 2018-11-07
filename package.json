@@ -37,19 +37,19 @@
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.11.4",
-    "babel-plugin-istanbul": "^1.0.3",
+    "babel-plugin-istanbul": "^4.1.3",
     "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
     "del": "^2.2.2",
     "eslint": "^3.1.1",
-    "eslint-config-idiomatic": "^2.1.0",
+    "eslint-config-idiomatic": "^3.1.0",
     "eslint-plugin-mocha": "^4.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-format-md": "*",
-    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sourcemaps": "^2.6.0",
     "mocha": "*",
-    "nyc": "^7.0.0"
+    "nyc": "^10.3.0"
   },
   "engines": {
     "node": ">=0.10.0"
